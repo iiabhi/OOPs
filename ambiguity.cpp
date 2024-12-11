@@ -40,7 +40,7 @@ int main()
     d.greet();
 
     d.base1::greet(); // here we specified the function to be executed in which scope. Even if we don't write line 29,30,31,32, it will still work.
-    d.base2::greet();
+    d.base2::greet(); // even though at line 32 we specified base1 but still if we execute this line, base2 greet function will be called. 
 
     return 0;
 }
